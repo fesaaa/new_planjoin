@@ -1,0 +1,22 @@
+.divbord{
+    background-image: linear-gradient(rgb(35, 50, 63), rgb(52, 66, 66));
+    border-radius: 15px;
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+body{
+    /* background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?cs=srgb&dl=black-textile-41949.jpg&fm=jpg"); */
+    background-image: url("../img/black-textile-41949.jpg");
+    background-size: 100%;
+    
+    
+}
+
+.form{
+    text-align: center;
+}
