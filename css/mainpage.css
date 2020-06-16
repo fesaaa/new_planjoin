@@ -1,0 +1,57 @@
+body{
+    background-image: url(../img/bg_mainpage1.png);
+    background-size: 100%;
+}
+
+.text{
+    text-align: center;
+    font-size: 100px;
+    color:whitesmoke;
+    font-family: serif;
+    margin-top: 270px;
+    text-shadow:0 0 0.2em black;
+    
+
+}
+
+img.size1{
+    width: 100px;
+    height: 206px;
+    
+      
+}
+img.size2{
+    width: 200px;
+    height: 156px;
+    margin-top: 20px;
+    
+      
+}
+
+img.size3{
+    width: 200; 
+    height: 138; 
+    margin-top: 60px;
+}
+
+.float{
+    float: left;
+}
+
+.marginin{
+    margin-left: 50px;
+}
+
+.marginout{
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.center{margin: 0;
+    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
