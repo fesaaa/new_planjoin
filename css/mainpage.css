@@ -1,11 +1,12 @@
 body{
     background-image: url(../img/bg_mainpage1.png);
-    background-size: 100%;
+    background-size: 100% 100%;
+    
 }
 
 .text{
     text-align: center;
-    font-size: 100px;
+    font-size: 7vw;
     color:whitesmoke;
     font-family: serif;
     margin-top: 270px;
@@ -14,44 +15,35 @@ body{
 
 }
 
-img.size1{
-    width: 100px;
-    height: 206px;
-    
-      
-}
-img.size2{
-    width: 200px;
-    height: 156px;
-    margin-top: 20px;
-    
-      
-}
 
-img.size3{
-    width: 200; 
-    height: 138; 
-    margin-top: 60px;
-}
 
 .float{
     float: left;
 }
 
-.marginin{
-    margin-left: 50px;
-}
 
-.marginout{
-    margin-left: 270px;
-    margin-top: 30px;
-}
-
-.center{margin: 0;
+.centerbtn{margin: 0;
     margin-top: 200px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+img {
+    width: 100%;
+    height: auto;
+  }
+
+.positiondiv{ position: absolute;
+    top: 30%;
+    left: 52%;
+    transform: translate(-50%, -50%);}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
