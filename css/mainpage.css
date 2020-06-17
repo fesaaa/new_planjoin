@@ -37,7 +37,7 @@ img {
   }
 
 .positiondiv{ position: absolute;
-    top: 30%;
+    top: 10rem;
     left: 52%;
     transform: translate(-50%, -50%);}
 
